@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- flaticon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfólio Sued Duarte</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Sued Duarte<img src="img/icon.png" alt="" id="icon"></a> 
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre mim</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- apresentação inicial -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá! Eu sou</h3>
+            <h1>Sued Duarte</h1>
+            <p>Seja bem-vindo(a) ao meu portfólio. Estou aqui para te mostrar um pouco sobre meu trabalho. Acredito que a dedicação juntamente com a organização trazem bons resultados.
+            </p>
+
+            <div class="social-media">
+                <a href="https://github.com/suedduarte"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/suedduarte"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:suedduarte57@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="https://instagram.com/sued_duarte"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+            <!-- <a href="#" class="btn">Currículo</a> -->
+        </div>
+
+        <!-- roda de habilidades -->
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Desenvolvedora Web</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-palette'></i>
+                    <h3>Design de Sites</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxs-camera'></i>
+                    <h3>Fotógrafa</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-pencil'></i>
+                    <h3>Futura Jornalista</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- Grid, sobre mim -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <p>Tenho 19 anos, sou gaúcha, moro em Porto Alegre e sou alguém que ama aprender coisas novas e por isso me dedico a áreas distintas. Sou desenvolvedora web, com preferência no front-end. Adoro a área do design e experiência do usuário e acredito que cada detalhe faz total diferença. Também sou fotógrafa e atualmente faço faculdade de Jornalismo.</p>
+            <a href="https://www.linkedin.com/in/suedduarte" class="btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="services">
+        <h2 class="heading"><span>Soft Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-target-lock'></i>
+                <h3>Dedicação</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bulb'></i>
+                <h3>Criatividade</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-calendar-check'></i>
+                <h3>Organização</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-megaphone'></i>
+                <h3>Boa Comunicação</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="heading"><span>Hard Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-php'></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="services-box">
+                <i class="fi fi-brands-mysql"></i>
+                <h3>MySQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meus Serviços -->
+    <section class="services" id="services">
+        <h2 class="heading">Meus <span>Serviços</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvedora Web</h3>
+                <p>Sempre adorei tecnologia e ter feito curso nessa área foi um grande acerto. Gosto muito da parte de planejar cada detalhe dos projetos, para com isso oferecer uma boa experiência ao usuário.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>UX/UI Designer</h3>
+                <p>Estou fazendo curso de UX/UI Design atualmente, pois acredito que o desenvolvimento web e este curso se completam. O design de um site ou aplicativo diz muito sobre o conceito que se quer passar.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-camera'></i>
+                <h3>Fotógrafa</h3>
+                <p>Desde criança sempre amei a fotografia, trabalho com isso há alguns anos e estou sempre buscando me aprimorar na área. Gosto do fato de poder registrar momentos especiais. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos HTML & CSS -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Meus projetos como<span> Desenvolvedora Web</span></h2>
+        <h3>HTML & CSS <div class="languages"><i class='bx bxl-html5'></i><i class='bx bxl-css3'></i></div>
+        </h3>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/tcc.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>TCC</h4>
+                    <p>Site feito em grupo de uma empresa fictícia de criação de sites.</p>
+                    <a href="https://suedduarte.github.io/ecorecycling/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/escolassemviolencia.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Escolas sem violência</h4>
+                    <p>Site criado para um projeto da minha faculdade de jornalismo, onde se encontra um conteúdo de conscientização.</p>
+                    <a href="https://suedduarte.github.io/Escolassemviolencia/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/techgeneration.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Tech Generation</h4>
+                    <p>Site de pesquisa onde se encontra um artigo de como será o futuro das linguagens da Web.</p>
+                    <a href="https://suedduarte.github.io/techgenereation/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div><div class="portfolio-box">
+                <img src="img/createco.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Create.co</h4>
+                    <p>Site de uma empresa fictícia de serviços de social media.</p>
+                    <a href="https://suedduarte.github.io/create.co/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>            
+            <div class="portfolio-box">
+                <img src="img/ecorecycling.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Eco Recycling</h4>
+                    <p>Site feito em grupo de uma empresa fictícia de reciclagem.</p>
+                    <a href="https://suedduarte.github.io/ecorecycling/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/parallax.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Parallax</h4>
+                    <p>Site em formato de parallax com um site fictício de resenhas de livros. </p>
+                    <a href="https://suedduarte.github.io/parallax-duart-s-resenha/"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/magento2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Magento</h4>
+                    <p>Site informativo feito em dupla, sobre a plataforma Magento.</p>
+                    <a href="https://suedduarte.github.io/projetomagento/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/hotsite.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Hotsite</h4>
+                    <p>Hotsite com o tema de inscrição para cursos oferecidos por um Instituto Social.</p>
+                    <a href="https://suedduarte.github.io/hotsite/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/grid.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Grid Marvel</h4>
+                    <p>Site com dois exemplos diferentes de grid com o tema Marvel.</p>
+                    <a href="https://suedduarte.github.io/Marvelfansgrid/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Projetos JS -->
+    <section class="portfolio" id="js">
+        <h3>JavaScript <div class="languages"><i class='bx bxl-javascript'></i></div>
+        </h3>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+            <img src="img/cronometro.jpeg" alt="">
+
+            <div class="portfolio-layer">
+                <h4>Cronômetro</h4>
+                <p>Crônometro funcional.</p>
+                <a href="https://suedduarte.github.io/cronometro/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+            <div class="portfolio-box">
+                <img src="img/responsivo.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Site Responsivo</h4>
+                    <p>Site responsivo, que fala da importância da responsividade.</p>
+                    <a href="https://suedduarte.github.io/responsividade/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/calculadora.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Calculadora</h4>
+                    <p>Calculadora funcional.</p>
+                    <a href="https://suedduarte.github.io/calculator/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/calculadoraimc.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Calculadorora IMC</h4>
+                    <p>Calculador de IMC funcional.</p>
+                    <a href="https://suedduarte.github.io/calculadora-imc/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/horoscopo.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Horóscopo</h4>
+                    <p>Horóscopo funcional.</p>
+                    <a href="https://suedduarte.github.io/horoscope/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/tabuada.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Tabuada</h4>
+                    <p>Tabuada funcional.</p>
+                    <a href="https://suedduarte.github.io/tabuada/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minhas Fotografias -->
+    <section class="portfolio" id="photo">
+        <h2 class="heading">Meus trabalhos<span> como Fotógrafa</span>
+            <div class="photography-media">
+                <a href="https://instagram.com/suedduarte_fotografia"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/fernanda.jpg" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="img/theo.jpg" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="img/casal.jpg" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="img/livia.jpg" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="img/katy.jpg" alt="">
+            </div>
+            <div class="portfolio-box">
+                <img src="img/sofia.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testemunhos de qualidade -->
+    <div class="testimonial-container">
+        <h2 class="heading">Feedback de<span> clientes</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/clientel.jpg" alt="">
+                        <h3>Lívia Bernardes</h3>
+                        <p>"Bom, minha experiência com a Sued Duarte Fotografia foi mais do que esperado, eu fiz fotos profissionais para portfólio de marketing. Ela me acompanhou numa manhã maravilhosa de fotos, me deixou totalmente à vontade, acredito que o diferencial dela é o amor e o afeto, que através da fotografia, ela consegue trazer um ambiente descontraído, íntimo e sem pressa de terminar. Outro diferencial foi a ajuda e suporte que ela dá para poses nas fotos, acredito que isso ajuda muito pessoas tímidas. Para mim, foi uma experiência incrível, e certamente não será a última. Admiro pessoas que envolvem o afeto no trabalho, e dá para observar nitidamente no semblante que ela realmente ama o que faz. Recomendo de olhos fechados, pois me sinto muito satisfeita com todo o trabalho dela."</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/clientef.jpg" alt="">
+                        <h3>Fernanda Rosa</h3>
+                        <p>"Minha experiência no ensaio com a Susu foi incrível, ela é super simpática, deixa a gente bem confortável para tirar as fotinhos, leva fotos de inspiração e auxilia nas poses. Somos amigas há muito tempo, acompanhei de perto a evolução dela como fotógrafa, me sinto muito orgulhosa em ver ela se tornando essa fotógrafa brilhante. Você arrasa amiga, te indico de olhos fechados <3"</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/clientek.jpg" alt="">
+                        <h3>Kathleen Campos</h3>
+                        <p>"Minha experiência com a fotógrafa Sued sempre é uma das melhores, no dia que fizemos a minha primeira sessão de fotos foi algo tão legal e divertido. Além de ter sido uma experiência muito legal em relação ao cenários e as poses espontâneas. Uma ótima fotógrafa e super atenciosa e com ótimas ideias para fotos."</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rodapé -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Obrigada pela visita!</p>
+        </div>
+       <div class="social-media">
+                <a href="https://github.com/suedduarte"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/suedduarte"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:suedduarte57@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="https://instagram.com/sued_duarte"><i class='bx bxl-instagram-alt'></i></a>
+        </div> 
+            <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sued Duarte </p> 
+            </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
