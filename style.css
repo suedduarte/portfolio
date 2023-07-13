@@ -307,9 +307,9 @@ section{
     position:relative;
     bottom: 0;
     right: 0;
-    width: 50%;
-    margin-left: 27rem;
-    margin-bottom: 5rem;
+    width: 60%;
+    margin-left: 29rem;
+    margin-top: -20rem;
     pointer-events: none;
 }
 
