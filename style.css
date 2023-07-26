@@ -35,6 +35,18 @@
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
+/*barra de rolagem*/
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    height: 10px;
+    background-color:var(--icon-color) ;
+    border-radius: 2rem;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
