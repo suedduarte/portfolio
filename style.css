@@ -13,27 +13,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-
 :root{
     --bg-color: #fff;
     --text-color: #333;
-    --main-color: #756ec3;
-    --two-color: #95a678;
+    --main-color: #6fa0ca;
+    --two-color: #187cb1;
     --three-color: #ddd0bb;
     --white-color: #fdfdfd;
-    --four-color: #d5cdfc;
+    --four-color: #cde7fc;
     --icon-color: #c6b69c;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
 .dark-mode{
-    --bg-color: #120329;
+    --bg-color: #11111a;
     --text-color: #fdfdfdfd;
-    --main-color: #a099ed;
-    --two-color: #ced9ba;
+    --main-color: #7ecdfa;
+    --two-color: #b8e9fe;
     --icon-color: #ddd0bb;
     --shadow-color: rgba(0, 0, 0, .7);
 }
+
 
 /*barra de rolagem*/
 ::-webkit-scrollbar{
@@ -405,7 +405,7 @@ span{
 
 .services-box h3{
     font-size: 2.6rem;
-    color: #a099ed;
+    color: var(--two-color);
 }
 
 .services-box:hover h3{
