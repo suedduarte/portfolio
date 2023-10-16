@@ -421,13 +421,17 @@ span{
     font-weight: 600;
 }
 
+.services-box a i{
+    font-size: 2rem;
+}
+
 /*Portifólio*/
 .portfolio{
     padding-bottom: 2rem;
 }
 
 .portfolio h2{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .portfolio p{
