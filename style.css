@@ -427,11 +427,17 @@ span{
 
 /*Portifólio*/
 .portfolio{
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .portfolio h2{
     margin-bottom: 1rem;
+}
+
+.portfolio h5{
+    text-align: justify;
+    font-size: 1.7rem;
 }
 
 .portfolio p{
