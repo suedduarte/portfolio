@@ -530,7 +530,8 @@ span{
 
 .portfolio-layer h4{
     font-size: 2rem;
-    text-align: center;
+    text-align: justify;
+    margin: 2rem;
 }
 
 .portfolio-layer p{
