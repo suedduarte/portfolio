@@ -430,6 +430,13 @@ span{
     margin-bottom: 2rem;
 }
 
+.portfolio p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    font-weight: 550;
+    text-align: center;
+}
+
 .photography-media a{
     display: inline-flex;
     justify-content: center;
