@@ -427,6 +427,7 @@ span{
 /*Portifólios*/
 .portfolio{
     padding-bottom: 5rem;
+    padding-top: -8rem;
 }
 
 .portfolio h2{
